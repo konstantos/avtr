@@ -306,3 +306,38 @@ border: 1px solid #53a1cb;
 .design__box-text {
     margin-bottom: 15px;
 }
+
+.design__img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+@media(max-width: 768px){
+    .header__logo {
+        margin-left: 0;
+    }
+    .logo__img {
+        width: 180px;
+    }
+    .list__item + .list__item {
+        margin-left: 15px;
+    }
+    .list__link {
+        width: 35px;
+        height: 35px;
+    }
+    .title {
+        font-size: 55px;
+    }
+    .title-descr {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 520px){
+    .header__top {
+        flex-wrap: wrap;
+    }
+}
